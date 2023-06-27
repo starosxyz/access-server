@@ -7,14 +7,24 @@ License File: LICENSE
 Description:
 
 接入服务器是一个提供接入服务的程序，提供如下接入方式
-1）PPPOE
-2）PPTP
-3）PPP
-4）L2TP
-5）SSL VPN
-6）IPSec
-7）SSTP
-8) IKEv2
-9) DIPCVNET
+1.PPPOE
+2.PPTP
+3.PPP
+4.L2TP
+5.SSL VPN
+6.IPSec
+7.SSTP
+8.IKEv2
+9.DIPCVNET
 
 client1-------Access-server-----dipc(p2p network)---Access-Server----client2
+
+客户端支持
+windows10/11
+MacOS
+Linux
+
+移动端支持
+iOS
+androd
+第三方VPN客户端
