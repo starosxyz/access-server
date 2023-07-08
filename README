@@ -8,3 +8,10 @@ Description:
 
 Third party code used in this project is described 
 in the file LICENSE_THIRD_PARTY.
+
+DIPC客户端，通过把windows/macos/android等终端流量引入DIPC网络。
+提供如下接入方式
+1）  PPPOE
+2)  PPTP
+3)  IPSEC
+4)  SSTP
