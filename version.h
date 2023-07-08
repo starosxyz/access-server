@@ -3,6 +3,6 @@
 
 #define MAJOR_VERSION 1
 #define MINOR_VERSION 0
-#define BETA_VERSION 1
+#define BETA_VERSION 0
 
 #endif

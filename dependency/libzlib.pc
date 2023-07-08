@@ -1,0 +1,13 @@
+prefix=/opt/staros.xyz/dipc/
+exec_prefix=${prefix}
+libdir=${exec_prefix}/dlls
+sharedlibdir=${libdir}
+includedir=${prefix}/include/zlib
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.11
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lzlib
+Cflags: -I${includedir}

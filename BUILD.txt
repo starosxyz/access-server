@@ -1,4 +1,4 @@
-此说明适用于Access-Server版本
+此说明适用于OpenBRAS版本
 
 一、脚本组成
 build.sh 编译 , env.sh 编译环境设置， Makefile编译文件

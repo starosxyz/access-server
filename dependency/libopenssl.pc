@@ -1,0 +1,13 @@
+prefix=/opt/staros.xyz/dipc
+exec_prefix=${prefix}
+libdir=${exec_prefix}/dlls
+sharedlibdir=${libdir}
+includedir=${prefix}/include/
+
+Name: openssl
+Description: openssl compression library
+Version: 1.0.0
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lopenssl
+Cflags: -I${includedir}
